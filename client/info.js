@@ -59,7 +59,10 @@ function renderInfo () {
         Alternatively, if you'd just like to try things out, you can use the <a class=${aClass} href='http://video-download-tool.herokuapp.com'>shared demo server</a> or watch the demo video below.
       </p>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/4tBGo73NbXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p class='silver center tracked measure lh-copy ma4'>
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/4tBGo73NbXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </p>
+
 
       <p class='silver center tracked measure lh-copy ma4'>
         Both the Video Download Tool <a class=${aClass} target='_blank' href='//github.com/davidguttman/video-download-tool'>UI</a> and <a class=${aClass} target='_blank' href='//github.com/davidguttman/video-download-tool-server'>server</a> are open source and are available on Github.
