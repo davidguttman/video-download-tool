@@ -42,7 +42,7 @@ function renderInfo () {
       </p>
 
       <p class='center tracked measure lh-copy ma4 '>
-        To use Video Download Tool you'll want your own <a class=${aClass} target='_blank' href='https://github.com/davidguttman/video-download-tool-server'>server</a> to do the streaming video editing. If you don't have one yet, you can easily create one for free on <a class=${aClass} target='_blank' href='https://heroku.com/deploy?template=https://github.com/davidguttman/video-download-tool-server'>Heroku</a> or a low monthly rate on <a class=${aClass} target='_blank' href='https://cloud.digitalocean.com/apps/new?repo=https://github.com/davidguttman/video-download-tool-server/tree/main&refcode=225b310227ea'>Digital Ocean</a>.
+        To use Video Download Tool you'll want your own <a class=${aClass} target='_blank' href='https://github.com/davidguttman/video-download-tool-server'>server</a> to do the streaming video editing. If you don't have one yet, you can easily create one for a low monthly rate on <a class=${aClass} target='_blank' href='https://cloud.digitalocean.com/apps/new?repo=https://github.com/davidguttman/video-download-tool-server/tree/main&refcode=225b310227ea'>Digital Ocean</a>.
       </p>
 
       <p class='center tracked measure lh-copy ma4'>
