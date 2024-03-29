@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo client/index.js --live -d dist",
+    "start": "budo client/index.js --live -d dist --port ${PORT:-9966}",
     "build": "browserify client/index.js | terser -mc > dist/index.js"
   },
   "keywords": [],
