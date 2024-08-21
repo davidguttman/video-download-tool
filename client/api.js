@@ -1,7 +1,7 @@
 module.exports = { getFormats, getDownloadUrl }
 
 function getFormats (apiHost, ytUrl) {
-  const urlMeta = `https://${apiHost}/video?ytUrl=${encodeURIComponent(ytUrl)}`
+  const urlMeta = `//${apiHost}/video?ytUrl=${encodeURIComponent(ytUrl)}`
 
   return window
     .fetch(urlMeta)
@@ -18,5 +18,5 @@ function getFormats (apiHost, ytUrl) {
 function getDownloadUrl (apiHost, { title, args }) {
   const filename = encodeURIComponent(title + '.mkv')
   const argsQuery = encodeURIComponent(args.join(','))
-  return `https://${apiHost}/ffmpeg?filename=${filename}&args=${argsQuery}`
+  return `//${apiHost}/ffmpeg?filename=${filename}&args=${argsQuery}`
 }
