@@ -1,4 +1,4 @@
-const set = require('lodash.set')
+const set = require('just-safe-set')
 const Emitter = require('wildemitter')
 
 module.exports = function createState () {

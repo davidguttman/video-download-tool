@@ -13,10 +13,10 @@
   "dependencies": {
     "insert-css": "^2.0.0",
     "linmap": "^1.0.0",
-    "lodash.set": "^4.3.2",
+    "just-safe-set": "^4.2.1",
     "nanohtml": "^1.9.1",
     "nanomorph": "^5.4.3",
-    "url-parse": "^1.5.3",
+    "url-parse": "^1.5.10",
     "wildemitter": "^1.2.1"
   },
   "devDependencies": {
